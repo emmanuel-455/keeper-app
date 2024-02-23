@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+//1. Create a new React app.
+//2. Create a App.jsx component.
+//3. Create a Header.jsx component that renders a <header> element
+//to show the Keeper App name in an <h1>.
+//4. Create a Footer.jsx component that renders a <footer> element
+//to show a copyright message in a <p> with a dynamically updated year.
+//5. Create a Note.jsx component to show a <div> element with a
+//<h1> for a title and a <p> for the content.
+//6. Make sure that the final website is styled like the example shown here:
+//https://l1pp6.csb.app/
+
+//HINT: You will need to study the classes in teh styles.css file to appy styling.
+
+
+import React from "react";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return <h1>hello world</h1>
 }
 
 export default App;
